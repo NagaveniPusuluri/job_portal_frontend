@@ -68,7 +68,7 @@ const Create = () => {
                 console.log("Endpoint:", endPoint);
                 navigate(redirect)
             } else {
-                console.log("Failed to post job",result)
+                console.log("Failed to post job")
             }
         } catch (err) {
             console.error(err)

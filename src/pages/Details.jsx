@@ -13,6 +13,7 @@ const Details = () => {
     if (!id) return
     const fetchJobs = async () => {
       const token = localStorage.getItem("authToken");
+      console.log(token);
       console.log("Fetching:", `${url}/${id}`);
       try {
         const response = await fetch(`${url}/${id}`, {
@@ -24,6 +25,7 @@ const Details = () => {
         }
         );
         const data = await response.json();
+        console.log(data);
         // const jobsArray = Array.isArray(data.jobs) ? data.jobs : Array.isArray(data) ? data : [];
         // const selectedJob = jobsArray.find(job => job.id === id);
         setFilteredJobs([data.jobs]);
