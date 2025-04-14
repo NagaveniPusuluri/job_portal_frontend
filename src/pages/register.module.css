@@ -1,0 +1,67 @@
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+.left{
+    width: 50%;
+    padding: 0.4rem;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+h2,p,button{
+    padding-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.right{
+    width: 50%;
+}
+.img{
+    height: 100vh;
+    width: 100%;
+}
+.subHeading{
+    opacity: 0.9;
+}
+.input{
+    width: 70%;
+    padding: 0.8rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+button{
+    background-color: #ED5353;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: none;
+}
+a{
+    color: black;
+    padding: 0.4rem;
+}
+
+.imgHeading{
+    color: white;
+    position: relative;
+    bottom: 640px;
+    left: 150px;
+}
+.error{
+    color: #ED5353;
+}
+.success{
+    color: green;
+}

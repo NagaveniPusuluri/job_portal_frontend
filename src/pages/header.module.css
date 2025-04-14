@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    background-color: #ED5353;
+    border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: fixed;
+  width: 100vw;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+.headerButton{
+    border: 1px solid white;
+}
+.heading{
+    font-size: 24px;
+    color: white;
+    margin-left: 5%;
+}
+.headerButton:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #ED5353;
+}
+
+.username{
+    color: white;
+    font-size: 1rem;
+}

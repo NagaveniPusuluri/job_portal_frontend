@@ -1,0 +1,166 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+.searchContainer {
+    padding: 10px;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 1px 0 8px rgba(241, 106, 79, 0.6);
+    /* user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+}
+
+.input {
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid rgb(193, 187, 187);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    height: 15%;
+    /*user-select: none;   
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+}
+
+.job{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+.listContainer{
+    height: 50%;
+}
+.job{
+    margin-top: 20px;
+    padding: 10px;
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 1px 0 8px rgba(241, 106, 79, 0.6);
+}
+.jobDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+} 
+.companyDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+.imgContainer{
+    width: 4vw;
+    height: 6vh;
+    border-radius: 5px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.right{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+.dropdown{
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+} 
+.skillSelect{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.skillName{
+    background-color: #FFEEEE;
+    color: black;
+    border-radius: 5%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.noSkills{
+    color: orangered;
+}
+.applyFilter, .createJob{
+    background-color: #ED5353;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.clearButton{
+    background-color: transparent;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: none;
+    color: #ED5353;
+}
+.clearButton:hover{
+    background-color: #ED5353;
+    color: white;
+}
+.filterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+.removeSkillBtn {
+    margin-left: 8px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ED5353;
+    font-size: 20px;
+}
